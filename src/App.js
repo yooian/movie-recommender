@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Hello AISC!</p>
+        <p>Hello, let's find some movies!</p>
         <form onSubmit={e => e.preventDefault()}>
           {movies.map((movie, index) => (
             <div key={index}>
